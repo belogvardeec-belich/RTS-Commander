@@ -1,0 +1,28 @@
+{
+  "name": "archer",
+  "description": "A ranged unit with moderate health and long-range attacks, representing the precision of archers.",
+  "health": 35,
+  "speed": 0.85,
+  "range": 15.0,
+  "rotateSpeed": 1.65,
+  "weapons": [ {
+    "type": "ranged",
+    "damage": 8,
+    "reload": 30.15,
+    "range": 14.0,
+    "shootSound": "zap",
+    "x": 0,
+    "bullet": {
+      "type": "LightningBulletType",
+      "length": 180,
+      "width": 4,
+      "damage": 3,
+      "speed": 12,
+      "lifetime": 3.25,
+      "color": "#32cd32",
+      "pierce": true,
+	  "buildingDamageMultiplier": 0.35,
+    }
+  } ],
+  "localizedName": "Archer"
+}

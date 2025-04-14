@@ -1,0 +1,27 @@
+{
+  "name": "cavalry",
+  "description": "Effective against infantry. Fast and versatile.",
+  "health": 35,
+  "speed": 1.65,
+  "range": 12.5,
+  "rotateSpeed": 10.75,
+  "weapons": [ {
+    "type": "melee",
+    "damage": 30,
+    "reload": 28.55,
+    "range": 6.5,
+	"shootSound": "bang",
+	"x": 0,
+    "bullet": {
+      "type": "LaserBoltBulletType",
+      "length": 375,
+      "width": 6,
+      "damage": 20,
+	  "speed": 25,
+	  "lifetime": 1.15,
+      "color": "#ffffff",
+	  "pierce": true,
+    }
+  } ],
+  "localizedName": "Cavalry"
+}

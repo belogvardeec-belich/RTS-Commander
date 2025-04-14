@@ -1,0 +1,31 @@
+{
+  "name": "bomber",
+  "description": "An explosive unit that detonates on impact, dealing area damage to nearby enemies.",
+  "health": 20,
+  "speed": 1.25,
+  "range": 0.0,
+  "rotateSpeed": 2.0,
+  "weapons": [ {
+	  "type": "melee",
+	  "damage": 100,
+	  "range": 5,
+	  "x": 0,
+	  "bullet": {
+        "type": "ExplosionBulletType",
+        "splashDamage": 139,
+        "splashDamageRadius": 78,
+        "fragBullets": 11,
+    	"despawnEffect": "flakExplosionBig",
+    	"hitEffect": "hitFlameSmall"
+	    "chargeEffect": "hitFlameSmall",
+        "fragBullet": {
+            "type": "FireBulletType",
+            "lightningColor": "BF92F9",
+			"damage": 38,
+        }
+    }
+}
+]
+	  
+  "localizedName": "Bomber"
+}

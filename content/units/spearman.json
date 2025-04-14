@@ -1,0 +1,27 @@
+{
+  "name": "spearman",
+  "description": "Ideal for small raids. Fast, but fragile.",
+  "health": 35,
+  "speed": 1.15,
+  "range": 6.0,
+  "rotateSpeed": 5.0,
+  "weapons": [ {
+    "type": "melee",
+    "damage": 15,
+    "reload": 24.5,
+    "range": 3.0,
+	"shootSound": "bang",
+	"x": 0,
+    "bullet": {
+      "type": "LaserBoltBulletType",
+      "length": 100,
+      "width": 4,
+      "damage": 10,
+	  "speed": 20,
+	  "lifetime": 1.1,
+      "color": "#ffffff",
+	  "pierce": true,
+    }
+  } ],
+  "localizedName": "Spearman"
+}

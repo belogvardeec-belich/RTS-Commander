@@ -1,0 +1,8 @@
+{
+  "name": "rtsmod",
+  "displayName": "[yellow]RTS-Commander (BETA)",
+  "description": "Adds melee units",
+  "author": "Belo",
+  "version": 1,
+  "minGameVersion": 136
+}

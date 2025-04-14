@@ -1,0 +1,63 @@
+health: 200
+name: "barracks"
+description: "A structure for training and spawning units."
+health: 100
+size: 2
+category: "units"
+requirements: [
+copper/100
+]
+plans: [
+{
+unit: spearman
+requirements: [
+lead/20
+]
+time: 2400
+}
+{
+unit: rundashir
+requirements: [
+silicon/10
+lead/35
+copper/5
+]
+time: 900
+}
+{
+unit: crawler
+requirements: [
+silicon/8
+lead/45
+copper/5
+]
+time: 600
+}
+{
+unit: bomber
+requirements: [
+lead/10
+copper/1
+coal/10
+]
+time: 1500
+}
+{
+unit: archer
+requirements: [
+lead/10
+copper/10
+]
+time: 1500
+}
+{
+unit: cannon
+requirements: [
+silicon/15
+lead/100
+copper/5
+coal/35
+]
+time: 1500
+}
+]

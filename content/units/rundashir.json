@@ -1,0 +1,27 @@
+{
+  "name": "rundashir",
+  "description": "A balanced unit with moderate health and damage, representing the knights.",
+  "health": 50,
+  "speed": 0.45,
+  "range": 10.0,
+  "rotateSpeed": 3.5,
+  "weapons": [ {
+    "type": "melee",
+    "damage": 45,
+    "reload": 30.25,
+    "range": 5.0,
+	"shootSound": "bang",
+	"x": 0,
+    "bullet": {
+      "type": "LaserBoltBulletType",
+      "length": 150,
+      "width": 6,
+      "damage": 15,
+	  "speed": 18,
+	  "lifetime": 1.1,
+      "color": "#ffffff",
+	  "pierce": true,
+    }
+  } ],
+  "localizedName": "Rundashir"
+}
